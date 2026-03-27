@@ -1,0 +1,118 @@
+/* Background and body styling */
+body {
+    min-height: 100vh;
+    background:
+        radial-gradient(circle at 10% 10%, rgba(124,58,237,0.45), transparent 40%),
+        radial-gradient(circle at 90% 90%, rgba(0,212,255,0.45), transparent 40%),
+        linear-gradient(180deg, #0f172a, #020617);
+    background-blend-mode: overlay, overlay, normal;
+    color: #fff !important; /* force all text white */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container styling */
+.container {
+    padding: 2rem;
+    border-radius: 12px;
+}
+
+/* Heading */
+h2 {
+    color: #fff !important; /* heading text white */
+    margin-bottom: 1.5rem;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+}
+
+/* Fully transparent table */
+table {
+    background: transparent !important; /* remove background */
+    color: #fff !important; /* force text white */
+    border-collapse: collapse;
+    /*width: 100%;*/
+}
+
+/* Table headers and cells */
+table th, table td {
+    background: transparent !important; /* remove cell background */
+    color: #fff !important; /* force text white */
+    border-bottom: 1px solid rgba(255,255,255,0.2); /* subtle border */
+    padding: 12px 15px;
+}
+
+/* Hover effect */
+table tbody tr:hover {
+    background: rgba(124, 58, 237, 0.2);
+    transition: background 0.3s;
+}
+
+/* Button styling */
+.btn-secondary {
+    background-color: #7c3aed;
+    border-color: #7c3aed;
+    transition: 0.3s;
+    color: #fff !important; /* force text white */
+}
+
+.btn-secondary:hover {
+    background-color: #9333ea;
+    border-color: #9333ea;
+}
+
+/* Input field styling for dark theme */
+.form-control {
+    background-color: rgba(255,255,255,0.08); /* soft transparent */
+    border: 1px solid rgba(255,255,255,0.25);
+    color: #fff;
+}
+
+.form-control:focus {
+    background-color: rgba(255,255,255,0.12);
+    border-color: #7c3aed;
+    box-shadow: 0 0 6px rgba(124,58,237,0.6);
+    color: #fff;
+}
+
+/* Labels */
+label {
+    color: #e5e7eb;
+}
+/* Search bar styling */
+.search-box{
+    width:250px;
+    background-color:#343a40;
+    color:white;
+    border:1px solid #555;
+}
+
+/* Placeholder color */
+.search-box::placeholder{
+    color:white;
+    opacity:1;
+}
+
+/* Align search and button nicely */
+.top-bar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:15px;
+}
+
+/* Search form layout */
+.search-form{
+    display:flex;
+    gap:8px;
+}
+
+/* Autofill fix for Chrome, Edge, Safari */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0px 1000px rgba(52, 58, 64, 0.8) inset !important; /* background */
+    -webkit-text-fill-color: #fff !important; /* text color */
+    caret-color: #fff !important;
+    transition: background-color 5000s ease-in-out 0s; /* prevents flash */
+}
+
+

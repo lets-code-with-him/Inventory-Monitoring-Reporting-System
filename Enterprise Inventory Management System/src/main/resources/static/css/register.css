@@ -1,0 +1,158 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  height:100vh;
+  background: linear-gradient(135deg, #1b2a6b, #0f0c29);
+  color:white;
+}
+
+/* Navbar */
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  padding:20px 50px;
+  align-items:center;
+}
+
+.logo{
+  font-size:22px;
+  font-weight:600;
+}
+
+.nav-links a{
+  margin-right:20px;
+  text-decoration:none;
+  color:white;
+}
+
+.register-btn{
+  background:#6c63ff;
+  padding:8px 18px;
+  border-radius:20px;
+}
+
+/* Hero */
+.hero{
+  text-align:center;
+  margin-top:120px;
+  padding:0 20px;
+}
+
+.hero h1{
+  font-size:60px;
+}
+
+.hero span{
+  color:#6c63ff;
+}
+
+.hero h3{
+  letter-spacing:4px;
+  margin:15px 0;
+  opacity:0.8;
+}
+
+.hero p{
+  max-width:600px;
+  margin:auto;
+  opacity:0.8;
+}
+
+.main-btn{
+  display:inline-block;
+  margin-top:30px;
+  padding:12px 30px;
+  border-radius:25px;
+  background:#6c63ff;
+  text-decoration:none;
+  color:white;
+}
+
+/* Center pages (Login/Register) */
+.center-page{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+/* 🔥 GLASSMORPHISM EFFECT */
+.glass-card{
+  width:350px;
+  padding:40px;
+  border-radius:15px;
+
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  border:1px solid rgba(255,255,255,0.2);
+  box-shadow:0 8px 32px rgba(0,0,0,0.3);
+
+  text-align:center;
+}
+
+.glass-card h2{
+  margin-bottom:10px;
+}
+
+.glass-card p{
+  margin-bottom:20px;
+  opacity:0.8;
+}
+
+.glass-card input{
+  width:100%;
+  padding:10px;
+  margin:10px 0;
+  border-radius:8px;
+  border:none;
+  outline:none;
+}
+
+.action-btn{
+  width:100%;
+  padding:10px;
+  margin-top:15px;
+  border:none;
+  border-radius:20px;
+  background:#6c63ff;
+  color:white;
+  cursor:pointer;
+}
+.action-btn:hover{
+    transform:scale(1.05);
+}
+
+.switch-text{
+  margin-top:15px;
+  font-size:14px;
+  .3
+}
+
+.switch-text a{
+  color:#6c63ff;
+  text-decoration:none;
+}
+
+.glass-card input,
+.glass-card select{
+  width:100%;
+  padding:10px;
+  margin:10px 0;
+  border-radius:8px;
+  border:none;
+  outline:none;
+  font-size:14px;
+}
+
+.glass-card select{
+  appearance: none;
+}
+
+
+
