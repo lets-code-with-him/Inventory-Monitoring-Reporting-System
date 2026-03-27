@@ -1,11 +1,5 @@
 # 🚀 Inventory Monitoring & Reporting System
 
-<p align="center">
-  📦 A smart system to monitor inventory in real-time and generate insightful reports.
-</p>
-
----
-
 ## 📖 Overview
 
 The **Inventory Monitoring & Reporting System** is a robust web application designed to track inventory levels, monitor stock movement, and generate analytical reports for better business decisions.
