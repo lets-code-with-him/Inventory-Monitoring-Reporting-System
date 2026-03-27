@@ -66,7 +66,7 @@ Controller → Service → Repository → Database
 ## ⚙️ Installation & Setup
 
 ```bash
-git clone https://github.com/lets-code-with-him/Inventory-Monitoring-Reporting-System
+git clone https://github.com/lets-code-with-him/Inventory-Monitoring-Reporting-System.git
 cd Inventory-Monitoring-Reporting-System
 ```
 
