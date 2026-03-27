@@ -107,7 +107,7 @@ cd Inventory-Monitoring-Reporting-System
 
 ## 👨‍💻 Author
 
-*Himanshu Chatrasali*
+Himanshu Chatrasali
 
 ---
 
